@@ -1,0 +1,24 @@
+{
+    "learners": [
+        { 
+            "firstName":"Vusi", 
+            "lastName":"Vuswayo", 
+            "age":20 
+        }, 
+        { 
+            "firstName":"Gorge", 
+            "lastName":"Smith", 
+            "age":25 }, 
+        { 
+            "firstName":"Thoko", 
+            "lastName":"Mandela", 
+            "age":30 },
+        { 
+            "firstName":"James", 
+            "lastName":"Bond", 
+            "age":27 }
+
+    ],
+    "error": "Error from JSON file"
+  }
+

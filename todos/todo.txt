@@ -1,0 +1,68 @@
+[X] Create home facility UI
+[X] Create test data
+[X] Create factory function to use the data
+[X] Link data to the UI forms and elements
+[X] Display added prescription from the basket
+[X] Create order prescription and send it to the pharmacy
+
+[][] What should the pharmacy see and what actions should be taken by the pharmacy personnel?
+
+[X] Create postgres db (pharmacy_db)
+[X] Create pharmacy_db tables
+[X] Add dummy data to the tables
+[X] Add pg module
+
+[X] create CRUD for facility_table
+[X] Test facility_table CRUD functions
+[X] create CRUD for unit_table
+[X] Test unit_table CRUD functions
+[X] create CRUD for patient_table
+[X] Test patient_table CRUD functions
+[X] create CRUD for drug_table
+[X] Test drug_table CRUD functions
+[X] create CRUD for prescription_table
+[X] Test prescription_table CRUD functions
+[X] create CRUD for orders_table
+[X] Test orders_table CRUD functions
+[] create CRUD for pharmacist_table
+[] Test pharmacist_table CRUD functions
+[] create CRUD for room_table
+[] Test room_table CRUD functions
+
+[X] Work on adding the order prescriptions into the db
+    [X] Create a function to get all prescription from the db
+    [X] Loop through all the prescriptions and add those that are not already added into orders table
+    [] Once order added combine the tables to display orders on the front-end
+    [] 
+
+
+=> How should the home page look like
+    * Includes info about Reliable company
+    * Info about logging in
+
+=> What should Reliable Pharmaceutical Service personnel see when he/she is loggedin
+    * Info about nursing-homes
+    * Info about previous and current orders
+    * Info about case manifests
+    * Info about Pharmacits and patients
+    * Info about drugs and drug availability (Inventory)
+    * 
+=> What should a Nursing-home personnel see when he/she is loggedin
+    * Info about their home-units and patients
+    * Info about patients current and previous prescriptions
+    * Info about current and previous orders
+    
+=> How each would they subscribe medication to specific patients
+=> 
+
+
+get all prescriptions with in-progress status and do not exist on the order_table
+
+
+
+[] bycrpt, cookie-parser, cors, dotenv, express, jsonwebtoken, pg
+[] Node
+[] 
+
+Ensure to create environment variables when you deploy to heroku
+Checkout Twitter API for Token standard ways - Screen shot on my computer
